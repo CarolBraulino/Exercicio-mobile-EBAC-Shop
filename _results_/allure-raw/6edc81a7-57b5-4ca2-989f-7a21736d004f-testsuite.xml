@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649683924375' stop='1649683963708'>
+    <name>Acessar Admin Panel</name>
+    <title>Acessar Admin Panel</title>
+    <test-cases>
+        <test-case start='1649683924396' status='passed' stop='1649683963673'>
+            <name>shoud login with valid credentials</name>
+            <title>shoud login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-que 8.1-8.1.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='57b9cd76-18ad-4813-a2b5-53b0323fd90f-attachment.mp4' type='video/mp4' size='157'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

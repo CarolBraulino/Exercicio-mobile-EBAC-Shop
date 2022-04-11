@@ -1,0 +1,62 @@
+{
+  "uid" : "284ee1ca5e3691b4",
+  "name" : "shoud login with valid credentials",
+  "fullName" : "Acessar Admin Panel.shoud login with valid credentials",
+  "historyId" : "51b3d3e8deaed39a7f7106fd1eba18d2",
+  "time" : {
+    "start" : 1649678214830,
+    "stop" : 1649678232896,
+    "duration" : 18066
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "selector needs to be typeof `string` or `function`",
+  "statusTrace" : "Error: selector needs to be typeof `string` or `function`\n                    at Browser.findElement (D:\\repositorio\\Testes-mobile-ebac-shop\\node_modules\\webdriverio\\build\\utils\\index.js:245:11)\n                    at Browser.$ (D:\\repositorio\\Testes-mobile-ebac-shop\\node_modules\\webdriverio\\build\\commands\\browser\\$.js:88:43)\n                    at Browser.wrapCommandFn (D:\\repositorio\\Testes-mobile-ebac-shop\\node_modules\\@wdio\\utils\\build\\shim.js:137:38)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at async MyStoreScreen.myStoreLogoIsDisplayed (D:\\repositorio\\Testes-mobile-ebac-shop\\test\\screens\\myStore.screen.js:16:9)\n                    at async Context.<anonymous> (D:\\repositorio\\Testes-mobile-ebac-shop\\test\\specs\\login.spec.js:20:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Acessar Admin Panel"
+  }, {
+    "name" : "testClass",
+    "value" : "Acessar Admin Panel"
+  }, {
+    "name" : "testMethod",
+    "value" : "shoud login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Acessar Admin Panel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "ebac-que 8.1-8.1.0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "284ee1ca5e3691b4.json",
+  "parameterValues" : [ "ebac-que 8.1-8.1.0" ]
+}

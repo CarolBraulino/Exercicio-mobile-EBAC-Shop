@@ -1,0 +1,47 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selector needs to be typeof `string` or `function`",
+      "children" : [ {
+        "name" : "shoud login with valid credentials",
+        "uid" : "7ddedc5e6f450f25",
+        "parentUid" : "c4c512edabbdc6f15b328ef755322870",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649686526513,
+          "stop" : 1649686547693,
+          "duration" : 21180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 17,
+        "retriesStatusChange" : true,
+        "parameters" : [ "ebac-que 8.1-8.1.0" ]
+      }, {
+        "name" : "shoud login with valid credentials",
+        "uid" : "ee17f783887e6a1b",
+        "parentUid" : "c4c512edabbdc6f15b328ef755322870",
+        "status" : "broken",
+        "time" : {
+          "start" : 1649687647202,
+          "stop" : 1649687672530,
+          "duration" : 25328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "samsung galaxy note 20-10.0" ]
+      } ],
+      "uid" : "c4c512edabbdc6f15b328ef755322870"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

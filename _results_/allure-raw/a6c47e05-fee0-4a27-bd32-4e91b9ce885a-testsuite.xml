@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649684247296' stop='1649684272970'>
+    <name>Acessar Admin Panel</name>
+    <title>Acessar Admin Panel</title>
+    <test-cases>
+        <test-case start='1649684247314' status='broken' stop='1649684272945'>
+            <name>shoud login with valid credentials</name>
+            <title>shoud login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-que 8.1-8.1.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='b0c489bf-87fe-4a40-b8f0-afa09bae4b81-attachment.mp4' type='video/mp4' size='157'/>
+            </attachments>
+            <failure>
+                <message>selector needs to be typeof `string` or `function`</message>
+                <stack-trace>Error: selector needs to be typeof `string` or `function`
+                    at Browser.findElement (D:\repositorio\Testes-mobile-ebac-shop\node_modules\webdriverio\build\utils\index.js:245:11)
+                    at Browser.$ (D:\repositorio\Testes-mobile-ebac-shop\node_modules\webdriverio\build\commands\browser\$.js:88:43)
+                    at Browser.wrapCommandFn (D:\repositorio\Testes-mobile-ebac-shop\node_modules\@wdio\utils\build\shim.js:137:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async MyStoreScreen.myStoreLogoIsDisplayed (D:\repositorio\Testes-mobile-ebac-shop\test\screens\myStore.screen.js:16:9)
+                    at async Context.&lt;anonymous> (D:\repositorio\Testes-mobile-ebac-shop\test\specs\login.spec.js:20:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

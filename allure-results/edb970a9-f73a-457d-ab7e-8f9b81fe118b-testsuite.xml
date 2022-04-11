@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1649683797845' stop='1649683832805'>
+    <name>Acessar Admin Panel</name>
+    <title>Acessar Admin Panel</title>
+    <test-cases>
+        <test-case start='1649683797846' status='failed' stop='1649683832792'>
+            <name>shoud login with valid credentials</name>
+            <title>shoud login with valid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='ebac-que 8.1-8.1.0'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='68a325f6-4c39-4d6a-a875-ca1593f511da-attachment.mp4' type='video/mp4' size='157'/>
+            </attachments>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: "EBAC -Shop"
+                Received: "EBAC - Shop"</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: "EBAC -Shop"
+                Received: "EBAC - Shop"
+                    at Context.&lt;anonymous> (D:\repositorio\Testes-mobile-ebac-shop\test\specs\login.spec.js:21:52)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
